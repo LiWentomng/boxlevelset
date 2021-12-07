@@ -3,7 +3,9 @@
 
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/overallnetwork.png)
 
- **The code is coming soon.**
+This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) and [AerialDetection](https://github.com/dingjiansw101/AerialDetection). 
+**The code is coming soon.**
+
 
 ## Visualization
  Instance segmentation results on the iSAID test set with box annotations.

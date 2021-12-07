@@ -8,7 +8,7 @@ This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) a
 
 
 ## Visualization
- Instance segmentation results on the iSAID test set with box annotations.
+ Instance segmentation results on the iSAID test set with the supervision of box annotations.
  ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/visual_results.png)
 
 

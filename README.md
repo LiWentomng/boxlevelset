@@ -1,7 +1,7 @@
 # Introduction
-The code for **Region-based Level Set for Box-supervised Instance Segmentation in Aerial Images**.
+The code for **Deep Level Set for Box-supervised Instance Segmentation in Aerial Images**.
 
-## The Paper and Codes are coming soon.
+## The Code is coming soon.
 
 # Visualization
  Instance segmentation results on the iSAID dataset with only box annotations.

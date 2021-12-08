@@ -12,4 +12,14 @@ This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) a
  ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/visual_results.png)
 
 
+# Citation 
 
+```shell
+@article{li2021deep,
+	title="Deep Level Set for Box-supervised Instance Segmentation in Aerial Images.",
+	author="Wentong {Li}, Yijie {Chen}, Wenyu {Liu}, Jianke {Zhu}.",
+	journal="arXiv preprint arXiv:2112.03451",
+	year="2021"
+}
+
+```

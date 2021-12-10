@@ -6,12 +6,6 @@
 **Any questions or discussions are welcomed!** 
  
 
-## To Do
-* COCO dataset
-* Medical images
-* Text images
-
-
 ## Installation
 Please refer to [INSTALL.md](https://github.com/LiWentomng/boxlevelset/blob/main/INSTALL.md) for environment installation. This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) and [AerialDetection](https://github.com/dingjiansw101/AerialDetection). 
 
@@ -22,6 +16,12 @@ Please see [GETTING_STARTED.md](https://github.com/LiWentomng/boxlevelset/blob/m
 ## Visualization
 **Instance segmentation results only under the supervision of box annotations on iSAID dataset.**
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/visual_results.png)
+
+## To Do
+* COCO dataset
+* Medical images
+* Text images
+
 
 ## Citation 
 
@@ -34,6 +34,7 @@ Please see [GETTING_STARTED.md](https://github.com/LiWentomng/boxlevelset/blob/m
 }
 
 ```
+
 
 ## Acknowledge
 [AerialDetection](https://github.com/dingjiansw101/AerialDetection)

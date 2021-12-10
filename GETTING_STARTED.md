@@ -35,7 +35,7 @@ iSAID_pathches_800
     │       ├── P0006__1__0__0.png
     │       └── ...
 ```
-Then, we need to generate `json` labels with COCO's format.
+Then, we need to generate `.json` labels with COCO's format.
  
 ## Train a model
 mmdetection implements distributed training and non-distributed training,
@@ -44,7 +44,7 @@ which uses `MMDistributedDataParallel` and `MMDataParallel` respectively.
 All outputs (log files and checkpoints) will be saved to the working directory,
 which is specified by `work_dir` in the config file.
 
-**\*Important\***: The default learning rate in config files is for 4 GPUs.
+**Important**: The default learning rate in config files is for 4 GPUs.
 If you use less or more than 4 GPUs, you need to set the learning rate proportional
 to the GPU num, e.g., 0.01 for 8 GPUs and 0.02 for 16 GPUs.
 

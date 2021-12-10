@@ -3,7 +3,7 @@
 
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/overallnetwork.png)
 
-**Any questions or discussions are welcomed!**
+**Any questions or discussions are welcomed!** 
  
 
 ## To Do
@@ -20,7 +20,7 @@ This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) a
 Please see [GETTING_STARTED.md](https://github.com/LiWentomng/boxlevelset/blob/main/GETTING_STARTED.md) for the dataset preparation and basic usage. 
 
 ## Visualization
-**Instance segmentation results only under the supervision of box annotations.**
+**Instance segmentation results only under the supervision of box annotations on iSAID dataset.**
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/visual_results.png)
 
 ## Citation 

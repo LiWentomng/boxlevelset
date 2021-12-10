@@ -577,16 +577,12 @@ class BoxLevelsetHead(nn.Module):
         else:
             c_device = poly_rbboxes.device
 
-            det_bboxes, det_labels = multiclass_nms_polybbox(poly_rbboxes, scores,
-                                                    cfg.score_thr, cfg.nms,
-                                                    cfg.max_per_img)
-
-            det_bboxes_1, det_labeles_1, det_masks_1 = multiclass_nms_polybbox_mask(poly_rbboxes,
+            det_bboxes, det_labels, det_masks = multiclass_nms_polybbox_mask(poly_rbboxes,
                                                                                 scores, mask_logits,
                                                                                 cfg.score_thr, cfg.nms,
                                                                                 cfg.max_per_img, img_h, img_w)
 
-            return det_bboxes, det_labels, det_masks_1
+            return det_bboxes, det_labels, det_masks
 
 
 

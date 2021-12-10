@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from mmdet.core import (build_assigner, bbox2roi, dbbox2roi, build_sampler,
-                        polybox2result,  roi2droi, gt_mask_bp_obbs_list,
+                        dbbox2result, polybox2result,  roi2droi, gt_mask_bp_obbs_list,
                         choose_best_Rroi_batch, down_mask_list, get_seg_masks_with_boxes,
                         aligned_bilinear)
 
@@ -214,7 +214,7 @@ class BoxLevelset(BaseDetectorNew, RPNTestMixin):
 
         if self.with_boxseg:
             rrois = dbbox2roi([res.bboxes for res in sampling_results])
-            # feat enlarge
+
             rrois[:, 3] = rrois[:, 3] * self.boxseg_head.w_enlarge
             rrois[:, 4] = rrois[:, 4] * self.boxseg_head.h_enlarge
 
@@ -226,7 +226,7 @@ class BoxLevelset(BaseDetectorNew, RPNTestMixin):
 
             norm_images = self.add_images(img, rrois[:, 0])
             loss_rbbox = self.boxseg_head.loss(cls_score, init_rbbox_pred, refine_rbbx_pred_list, mask_logits,
-                                              norm_images, img_meta[0]['img_shape'], *rbbox_targets)
+                                              norm_images, img.shape, *rbbox_targets)
 
             for name, value in loss_rbbox.items():
                 losses['s{}.{}'.format(1, name)] = (value)
@@ -259,14 +259,14 @@ class BoxLevelset(BaseDetectorNew, RPNTestMixin):
             # initial_rbbox_pred,
             refine_rbbox_pred_list[-1],
             mask_logits,
-            img_meta[0]['img_shape'],
+            img.shape,
             img_meta[0]['scale_factor'],
             rescale=rescale,
             cfg=self.test_cfg.rcnn)
 
-        masks_results = self.mask_postprocess(det_masks, img_meta[0]['img_shape'])
+        masks_results = self.mask_postprocess(det_masks, img_meta[0]['ori_shape'], img.shape)
         masks_results_encode = get_seg_masks_with_boxes(masks_results, det_rbboxes, det_labels,
-                                           self.boxseg_head.num_classes, img_meta[0]['img_shape'])
+                                           self.boxseg_head.num_classes, img_meta[0]['ori_shape'])
 
         # poly box results
         # rbbox_results = dbbox2result(det_rbboxes, det_labels,
@@ -300,11 +300,13 @@ class BoxLevelset(BaseDetectorNew, RPNTestMixin):
             sampled_imgs[im_idx == i] = downsampled_images[i:i + 1]
         return sampled_imgs
 
-    def mask_postprocess(self, mask_logits_preds, img_shape):
+    def mask_postprocess(self, mask_logits_preds, ori_shape, img_shape):
         """
         mask potsprocess based on the predicted mask logits.
         """
-        (img_h, img_w, img_chan) = img_shape
+        (ori_img_h, ori_img_w, img_chan) = img_shape
+        b, c, img_h, img_w = ori_shape
+
         if mask_logits_preds.size(0) > 0:
 
             mask_h, mask_w = mask_logits_preds.size()[-2:]
@@ -319,12 +321,12 @@ class BoxLevelset(BaseDetectorNew, RPNTestMixin):
             pred_global_masks = pred_global_masks[:, :, :img_h, :img_w]
             pred_global_masks = F.interpolate(
                 pred_global_masks,
-                size=(img_h, img_w),
-                mode="bilinear", align_corners=False
+                size=(ori_img_h, ori_img_w),
+                mode="bilinear", align_corners=True
             )
             pred_masks = pred_global_masks[:, 0, :, :].float()
         else:
-            pred_masks = torch.zeros(0, img_h, img_w)
+            pred_masks = torch.zeros(0, ori_img_h, ori_img_w)
 
         return pred_masks
 

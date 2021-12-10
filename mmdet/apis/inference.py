@@ -159,13 +159,11 @@ def draw_poly_mask_detections(img, detections_tuple, class_names, scale, thresho
     import random
     assert isinstance(class_names, (tuple, list))
     img = mmcv.imread(img)
-    # print('')
+
     if isinstance(detections_tuple, tuple):
         detections, segmentations = detections_tuple
     else:
         detections, segmentations = detections_tuple, None
-
-    color_white = (255, 255, 255)
 
     # iSAID class names
     class_names = ['Small_Vehicle', 'storage_tank', 'Large_Vehicle', 'plane', 'ship', 'Swimming_pool', 'Harbor',
@@ -178,15 +176,12 @@ def draw_poly_mask_detections(img, detections_tuple, class_names, scale, thresho
         segms = segmentations[j]
 
         if len(dets) > 0:
-            # detect_poly_mask = poly2mask_single(dets[:, :8], 1024, 1024)
 
             for i, det in enumerate(dets):
                 bbox = det[:8] * scale
                 score = det[-1]
                 if score < threshold:
                     continue
-
-                detect_poly_mask = poly2mask_single([bbox], 800, 800)
 
                 color_mask = np.random.randint(0, 256, (1, 3), dtype=np.uint8)
                 mask = maskUtils.decode(segms[i]).astype(np.bool)

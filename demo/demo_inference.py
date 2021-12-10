@@ -45,8 +45,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='inference demo')
     parser.add_argument('config_file', help='input config file')
     parser.add_argument('checkpoint_file', help='pkl checkpoint file')
-    parser.add_argument('out_dir', help='output dir')
     parser.add_argument('img_dir', help='img dir')
+    parser.add_argument('out_dir', help='output dir')
     args = parser.parse_args()
 
     dota_colormap = [

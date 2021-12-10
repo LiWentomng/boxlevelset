@@ -6,6 +6,12 @@
 **Any questions or discussions are welcomed!**
  
 
+## To Do
+* COCO dataset
+* Medical images
+* Text images
+
+
 ## Installation
 This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) and [AerialDetection](https://github.com/dingjiansw101/AerialDetection). Please refer to [INSTALL.md](https://github.com/LiWentomng/boxlevelset/blob/main/INSTALL.md) for environment installation .
 

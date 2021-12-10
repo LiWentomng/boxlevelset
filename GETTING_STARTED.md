@@ -8,11 +8,10 @@ It is recommended to symlink the dataset root to `boxlevelset/data`.
 
 The detailed introduction of iSAID dataset preparation can refer to this  official [repo](https://github.com/CAPTAIN-WHU/iSAID_Devkit).
 
-**Please note that we split iSAID into all the 800x800 patches for images, color_RGB images and id_color images.**  The `.py` script can use the DOTA_devkit/ImgSplit.py.
+**Note:** We split iSAID into all the `800x800` patches for each `original image`, `color_RGB image` and `id_color image`.  The `.py` script can use the `DOTA_devkit/ImgSplit.py`.
+The official [split.py](https://github.com/CAPTAIN-WHU/iSAID_Devkit/blob/master/preprocess/split.py) for iSAID datatset is less than or equal to 800 with different patches size.
 
-The image size using [split.py](https://github.com/CAPTAIN-WHU/iSAID_Devkit/blob/master/preprocess/split.py) in official iSAID datatset is less than or equal to 800.
-
-The structure of split data:
+The structure of patches data:
 ```shell
 iSAID_pathches_800
     ├── train

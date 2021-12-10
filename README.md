@@ -3,14 +3,19 @@
 
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/overallnetwork.png)
 
-This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) and [AerialDetection](https://github.com/dingjiansw101/AerialDetection). 
-**The code is coming soon.**
+**Any questions, welcome to throw the issues.**
+ 
 
+## Installation
+This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) and [AerialDetection](https://github.com/dingjiansw101/AerialDetection). Please refer to [INSTALL.md](https://github.com/LiWentomng/boxlevelset/blob/main/INSTALL.md) for environment installation .
+
+
+## Getting Started
+Please see [GETTING_STARTED.md](https://github.com/LiWentomng/boxlevelset/blob/main/GETTING_STARTED.md) for the dataset preparation and basic usage. 
 
 ## Visualization
- Instance segmentation results on the iSAID test set with the supervision of box annotations.
- ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/visual_results.png)
-
+**Instance segmentation results only under the supervision of box annotations.**
+![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/visual_results.png)
 
 ## Citation 
 
@@ -23,3 +28,12 @@ This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) a
 }
 
 ```
+
+## Acknowledge
+[AerialDetection](https://github.com/dingjiansw101/AerialDetection)
+
+[DeepSnake](https://github.com/zju3dv/snake)
+
+[AdelaiDet](https://github.com/aim-uofa/AdelaiDet)
+
+

@@ -3,7 +3,7 @@
 
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/overallnetwork.png)
 
-**Any questions, welcome to throw the issues.**
+**Any questions or discussions are welcomed!**
  
 
 ## Installation

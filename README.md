@@ -11,14 +11,14 @@ Please refer to [INSTALL.md](https://github.com/LiWentomng/boxlevelset/blob/main
 
 
 ## Getting Started
-Please see [GETTING_STARTED.md](https://github.com/LiWentomng/boxlevelset/blob/main/GETTING_STARTED.md) for the dataset preparation and basic usage. 
+Please see [GETTING_STARTED.md](https://github.com/LiWentomng/boxlevelset/blob/main/GETTING_STARTED.md) for **dataset preparation** and **model training and test**. 
 
 ## Visualization
 **Instance segmentation results only under the supervision of box annotations on iSAID dataset.**
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/visual_results.png)
 
 ## To Do
-* COCO dataset
+* **COCO dataset**
 * Medical images
 * Text images
 

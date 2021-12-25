@@ -33,7 +33,10 @@ iSAID_pathches_800
     │       ├── P0006__1__0__0.png
     │       └── ...
 ```
-Then, we need to generate `.json` labels with COCO's format.
+
+Then, we need to generate coco-format **.json** annotation files for train and val split images by running `python preprocess.py --set train,val` in this  official [repo](https://github.com/CAPTAIN-WHU/iSAID_Devkit).  (So you need to install the right envs for this [repo](https://github.com/CAPTAIN-WHU/iSAID_Devkit).)
+
+
  
 ## Train a model
 mmdetection implements distributed training and non-distributed training,

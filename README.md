@@ -3,8 +3,12 @@
 
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/overallnetwork.png)
 
+## News:
+* **The results of general dataset COCO/VOC are coming**
+* **The results of Medical dataset LITS are coming**
+
+
 **Any questions or discussions are welcomed!** 
- 
 
 ## Installation
 Please refer to [INSTALL.md](https://github.com/LiWentomng/boxlevelset/blob/main/INSTALL.md) for environment installation. This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) and [AerialDetection](https://github.com/dingjiansw101/AerialDetection). 

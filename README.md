@@ -3,7 +3,7 @@
 
 This code is for **Aerial Images**. Please see this [paper](https://arxiv.org/pdf/2112.03451.pdf) for details.
 
-**Any questions or discussions are welcomed!** 
+**Any issues or discussions are welcomed!** 
 
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/overallnetwork.png)
 

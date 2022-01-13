@@ -105,7 +105,7 @@ if __name__ == '__main__':
         tests_require=['pytest'],
         install_requires=[
             'mmcv==0.2.13', 'numpy', 'shapely',
-            'tqdm', 'pillow==6.2.2', 'matplotlib',
+            'tqdm', 'pillow', 'matplotlib',
             'six', 'terminaltables', 'pycocotools', 'e2cnn'
         ],
         zip_safe=False)

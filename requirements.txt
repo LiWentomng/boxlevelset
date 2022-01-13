@@ -6,5 +6,5 @@ tqdm
 matplotlib
 terminaltables
 pycocotools
-pillow==6.2.2
+pillow
 e2cnn

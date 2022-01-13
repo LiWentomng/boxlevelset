@@ -8,7 +8,7 @@ This code is for **Aerial Images**. Please see this [paper](https://arxiv.org/pd
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/overallnetwork.png)
 
 ## News:
-### Our method has been refined.
+### Our method and code have been refined.
   * The results of general dataset COCO/VOC are coming.
   * The results of Medical dataset LITS are coming.
 

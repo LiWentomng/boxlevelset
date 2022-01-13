@@ -7,7 +7,6 @@
 * **The results of general dataset COCO/VOC are coming**
 * **The results of Medical dataset LITS are coming**
 
-
 **Any questions or discussions are welcomed!** 
 
 ## Installation
@@ -22,8 +21,6 @@ Please see [GETTING_STARTED.md](https://github.com/LiWentomng/boxlevelset/blob/m
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/visual_results.png)
 
 ## To Do
-* **COCO dataset**
-* Medical images
 * Text images
 
 

@@ -1,13 +1,16 @@
-## [Deep Levelset for Box-supervised Instance Segmentation in Aerial Images](https://arxiv.org/pdf/2112.03451.pdf)
+## Deep Levelset for Box-supervised Instance Segmentation
 > Wentong Li, Yijie Chen, Wenyu Liu, Jianke Zhu*
+
+This code is for **Aerial Images**. Please see this [paper](https://arxiv.org/pdf/2112.03451.pdf) for details.
+
+**Any questions or discussions are welcomed!** 
 
 ![](https://github.com/LiWentomng/boxlevelset/blob/main/docs/overallnetwork.png)
 
 ## News:
-* **The results of general dataset COCO/VOC are coming**
-* **The results of Medical dataset LITS are coming**
-
-**Any questions or discussions are welcomed!** 
+### Our method has been refined.
+  * The results of general dataset COCO/VOC are coming.
+  * The results of Medical dataset LITS are coming.
 
 ## Installation
 Please refer to [INSTALL.md](https://github.com/LiWentomng/boxlevelset/blob/main/INSTALL.md) for environment installation. This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) and [AerialDetection](https://github.com/dingjiansw101/AerialDetection). 

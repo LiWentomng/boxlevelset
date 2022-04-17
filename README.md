@@ -1,7 +1,6 @@
 ### Our method has been refined further and work better for various scenes comprehensively.  
 
-The new paper is supervised by Prof. [Jianke Zhu](https://scholar.google.com/citations?user=SC-WmzwAAAAJ&hl=zh-CN&oi=ao) and Prof. [Lei Zhang](https://scholar.google.com/citations?user=tAK5l1IAAAAJ&hl=zh-CN&oi=ao) (PolyU, HK)
-and is coming soon. The new code is based on **[MMdetection 2.0](https://github.com/open-mmlab/mmdetection)**, and will come soon with pretrained models. 
+The new paper is coming soon. The new code is based on **[MMdetection 2.0](https://github.com/open-mmlab/mmdetection)**, and will come soon with pretrained models. 
 
   * The results of general dataset **COCO/VOC** are coming soon.
   * The results of medical dataset **LITS** are coming soon.

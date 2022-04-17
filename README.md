@@ -35,6 +35,8 @@ Please see [GETTING_STARTED.md](https://github.com/LiWentomng/boxlevelset/blob/m
 ## Acknowledge
 Here are some great resources we benefit:
 
+[MMdetection](https://github.com/open-mmlab/mmdetection)
+
 [AerialDetection](https://github.com/dingjiansw101/AerialDetection)
 
 [DeepSnake](https://github.com/zju3dv/snake)

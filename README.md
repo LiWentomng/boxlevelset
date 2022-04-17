@@ -9,7 +9,7 @@ and is coming soon. The new code is based on **[MMdetection 2.0](https://github.
 This code is for **Aerial Images**. Please see this [paper](https://arxiv.org/pdf/2112.03451.pdf) for details. This code is based on **mmdet 1.0** (old version). 
 
 ## Installation
-Please refer to [INSTALL.md](https://github.com/LiWentomng/boxlevelset/blob/main/INSTALL.md) for environment installation. This code is based on [MMdetection](https://github.com/open-mmlab/mmdetection) and [AerialDetection](https://github.com/dingjiansw101/AerialDetection). 
+Please refer to [INSTALL.md](https://github.com/LiWentomng/boxlevelset/blob/main/INSTALL.md) for environment installation. This code is based on [AerialDetection](https://github.com/dingjiansw101/AerialDetection). 
 
 
 ## Getting Started

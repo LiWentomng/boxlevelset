@@ -103,13 +103,19 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# cython generated cpp
-mmdet/ops/nms/src/soft_nms_cpu.cpp
-mmdet/version.py
+data/
 data
 .vscode
 .idea
+.DS_Store
 
-trash/
+# custom
+*.pkl
+*.pkl.json
+*.log.json
+work_dirs/
 
-experiments
+# Pytorch
+*.pth
+*.py~
+*.sh~

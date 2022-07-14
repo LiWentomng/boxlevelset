@@ -1,25 +1,26 @@
-from .DOTA import DOTADataset, DOTADataset_v3, iSAIDDataset
-from .DOTA1_5 import DOTA1_5Dataset, DOTA1_5Dataset_v3, DOTA1_5Dataset_v2
-from .DOTA2 import DOTA2Dataset
-from .DOTA2 import DOTA2Dataset_v2
-from .DOTA2 import DOTA2Dataset_v3, DOTA2Dataset_v4
-from .HRSC import HRSCL1Dataset
+from .builder import DATASETS, PIPELINES, build_dataloader, build_dataset
+from .cityscapes import CityscapesDataset
 from .coco import CocoDataset
-from .concat_dataset import ConcatDataset
 from .custom import CustomDataset
-from .extra_aug import ExtraAugmentation
-from .loader import GroupSampler, DistributedGroupSampler, build_dataloader
-from .repeat_dataset import RepeatDataset
-from .utils import to_tensor, random_scale, show_ann, get_dataset
+from .dataset_wrappers import (ClassBalancedDataset, ConcatDataset,
+                               RepeatDataset)
+from .deepfashion import DeepFashionDataset
+from .lvis import LVISDataset, LVISV1Dataset, LVISV05Dataset
+from .samplers import DistributedGroupSampler, DistributedSampler, GroupSampler
+from .utils import (NumClassCheckHook, get_loading_pipeline,
+                    replace_ImageToTensor)
 from .voc import VOCDataset
+from .pascal_voc import PascalVOCDataset
+from .objects365 import Objects365Dataset
+from .wider_face import WIDERFaceDataset
 from .xml_style import XMLDataset
-from .icdar import ICDARDataset
 
 __all__ = [
-    'CustomDataset', 'XMLDataset', 'CocoDataset', 'DOTADataset', 'DOTA2Dataset',
-    'DOTA2Dataset_v2', 'DOTA2Dataset_v3', 'VOCDataset', 'GroupSampler',
-    'DistributedGroupSampler', 'build_dataloader', 'to_tensor', 'random_scale',
-    'show_ann', 'get_dataset', 'ConcatDataset', 'RepeatDataset',
-    'ExtraAugmentation', 'HRSCL1Dataset', 'DOTADataset_v3',
-    'DOTA1_5Dataset', 'DOTA1_5Dataset_v3', 'DOTA1_5Dataset_v2', 'DOTA2Dataset_v4', 'ICDARDataset', 'iSAIDDataset'
+    'CustomDataset', 'XMLDataset', 'CocoDataset', 'DeepFashionDataset',
+    'VOCDataset', 'CityscapesDataset', 'LVISDataset', 'LVISV05Dataset',
+    'LVISV1Dataset', 'GroupSampler', 'DistributedGroupSampler',
+    'DistributedSampler', 'build_dataloader', 'ConcatDataset', 'RepeatDataset',
+    'ClassBalancedDataset', 'WIDERFaceDataset', 'DATASETS', 'PIPELINES',
+    'build_dataset', 'replace_ImageToTensor', 'get_loading_pipeline',
+    'NumClassCheckHook', 'Objects365Dataset', 'PascalVOCDataset'
 ]

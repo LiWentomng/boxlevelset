@@ -1,10 +1,4 @@
-Cython
-numpy
-mmcv==0.2.13
-shapely
-tqdm
-matplotlib
-terminaltables
-pycocotools
-pillow
-e2cnn
+-r requirements/build.txt
+-r requirements/optional.txt
+-r requirements/runtime.txt
+-r requirements/tests.txt

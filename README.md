@@ -6,11 +6,11 @@
 ## Installation
 
 This implementation is based on [MMdetection](https://github.com/open-mmlab/mmdetection).
-Please refer to ![install.md](./docs/install.md) for detailed installation.
+Please refer to [install.md](./docs/install.md) for detailed installation.
 
 
 ## Getting Started 
-Please see ![getting_started.md](./docs/get_started.md) for models training and inference.
+Please see [getting_started.md](./docs/get_started.md) for models training and inference.
 
 ## Performance
 

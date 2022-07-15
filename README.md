@@ -1,6 +1,8 @@
 ## Box-supervised Instance Segmentation with Level Set Evolution
 > Wentong Li, Wenyu Liu, [Jianke Zhu](https://person.zju.edu.cn/jkzhu), Miaomiao Cui, Xianshenghua, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) 
 
+[Paper](./docs/BoxLevelset-ECCV2022.pdf) (Arxiv is coming.)
+
 <img src="./docs/boxlevelset.png" width="800px">
 
 ## Installation

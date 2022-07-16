@@ -51,7 +51,7 @@ Please see [getting_started.md](./docs/get_started.md) for models `training` and
 ```BibTeX
 @article{li2022boxlevelset,
   title={Box-supervised Instance Segmentation with Level Set Evolution},
-  author={Wentong Li, Wenyu Liu, Jianke Zhu, Miaomiao Cui, Xianshenghua, Lei Zhang},
+  author={Wentong Li, Wenyu Liu, Jianke Zhu, Miaomiao Cui, Xiansheng Hua, Lei Zhang},
   journal={ECCV2022},
   year={2022}
 }

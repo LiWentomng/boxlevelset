@@ -1,15 +1,6 @@
 model = dict(
     type='BoxLevelSet',
     pretrained='https://download.pytorch.org/models/resnet50-11ad3fa6.pth',
-    train_cfg = dict(),
-    test_cfg = dict(
-        nms_pre=500,
-        score_thr=0.05,
-        mask_thr=0.70,
-        update_thr=0.025,
-        kernel='gaussian',  # gaussian/linear
-        sigma=2.0,
-        max_per_img=100),
     backbone=dict(
         type='ResNet',
         depth=50,
@@ -45,8 +36,16 @@ model = dict(
             loss_weight=3.0),
         loss_levelset=dict(
             type='LevelsetLoss',
-            loss_weight=1.0))
-    )
+            loss_weight=1.0)),
+    train_cfg = dict(),
+    test_cfg = dict(
+        nms_pre=500,
+        score_thr=0.05,
+        mask_thr=0.70,
+        update_thr=0.025,
+        kernel='gaussian',  # gaussian/linear
+        sigma=2.0,
+        max_per_img=100))
 
 # dataset settings
 dataset_type = 'PascalVOCDataset'

@@ -2,6 +2,7 @@ import os
 import glob
 import torch
 import shutil
+os.environ['LD_LIBRARY_PATH'] = '/home/anaconda3/envs/lib'
 from setuptools import setup
 from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 

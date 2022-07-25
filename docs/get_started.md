@@ -11,13 +11,13 @@ Assume that you have already downloaded the checkpoints to `work_dirs/voc_r50_3x
 1. Test with single GPU and get mask AP values.
 
 ```shell
-CUDA_VISIBLES=0 python tools/test.py configs/boxlevelset/voc/box_levelset_voc_r50_fpn_3x.py \
+CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/boxlevelset/voc/box_levelset_voc_r50_fpn_3x.py \
     work_dirs/voc_r50_3x/xxx.pth  --eval segm
 
 ```
 2. Test with 4 GPUs and get mask AP values.
 ```shell
-CUDA_VISIBLES=0,1,2,3 ./tools/dist_test.sh configs/boxlevelset/voc/box_levelset_voc_r50_fpn_3x.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_test.sh configs/boxlevelset/voc/box_levelset_voc_r50_fpn_3x.py \
     work_dirs/voc_r50_3x/xxx.pth 4 --eval segm 
 ```
 
@@ -27,14 +27,14 @@ Assume that you have already downloaded the checkpoints to `work_dirs/coco_r50_3
 1. Test with 8 GPUs and get mask AP values on `val` dataset.
 
 ```shell
-CUDA_VISIBLES=0,1,2,3,4,5,6,7 ./tools/dist_test.sh configs/boxlevelset/coco/box_levelset_coco_r50_fpn_3x.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./tools/dist_test.sh configs/boxlevelset/coco/box_levelset_coco_r50_fpn_3x.py \
     work_dirs/coco_r50_3x/xxx.pth  8 --eval segm
 
 ```
 2. Test with 8 GPUs and get mask AP values on `test-dev` dataset.
 
 ```shell
-CUDA_VISIBLES=0,1,2,3,4,5,6,7 ./tools/dist_test.sh configs/boxlevelset/coco/box_levelset_coco_r50_fpn_3x.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./tools/dist_test.sh configs/boxlevelset/coco/box_levelset_coco_r50_fpn_3x.py \
     work_dirs/coco_r50_3x/xxx.pth 8 --format-only --eval-options "jsonfile_prefix=work_dirs/r50_coco_dev" 
 ```
 Generate the json results, and submit to the [COCO challenge server](https://competitions.codalab.org/competitions/20796#participate) for `test-dev` performance evaluation.
@@ -44,14 +44,14 @@ Generate the json results, and submit to the [COCO challenge server](https://com
 1. Test for Pascal VOC
 
    ```shell
-    CUDA_VISIBLES=0 python tools/test.py configs/boxlevelset/voc/box_levelset_voc_r50_fpn_3x.py \
+    CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/boxlevelset/voc/box_levelset_voc_r50_fpn_3x.py \
     work_dirs/voc_r50_3x/xxx.pth  --show-dir work_dirs/vis_pascal_voc_r50/
     ```
 
 2. Test for COCO
 
    ```shell
-    CUDA_VISIBLES=0 python tools/test.py configs/boxlevelset/coco/box_levelset_coco_r50_fpn_3x.py \
+    CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/boxlevelset/coco/box_levelset_coco_r50_fpn_3x.py \
     work_dirs/coco_r50_3x/xxx.pth  --show-dir work_dirs/vis_coco_r50/
     ```
 

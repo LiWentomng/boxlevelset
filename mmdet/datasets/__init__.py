@@ -14,6 +14,7 @@ from .pascal_voc import PascalVOCDataset
 from .objects365 import Objects365Dataset
 from .wider_face import WIDERFaceDataset
 from .xml_style import XMLDataset
+from .isaid import ISAIDDataset
 
 __all__ = [
     'CustomDataset', 'XMLDataset', 'CocoDataset', 'DeepFashionDataset',
@@ -22,5 +23,5 @@ __all__ = [
     'DistributedSampler', 'build_dataloader', 'ConcatDataset', 'RepeatDataset',
     'ClassBalancedDataset', 'WIDERFaceDataset', 'DATASETS', 'PIPELINES',
     'build_dataset', 'replace_ImageToTensor', 'get_loading_pipeline',
-    'NumClassCheckHook', 'Objects365Dataset', 'PascalVOCDataset'
+    'NumClassCheckHook', 'Objects365Dataset', 'PascalVOCDataset', 'ISAIDDataset'
 ]

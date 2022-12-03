@@ -1,5 +1,5 @@
 
-### _We develop a Toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._
+### _We develop a Toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes and methods (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._
 
 
 ##

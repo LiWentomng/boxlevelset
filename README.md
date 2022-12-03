@@ -1,10 +1,10 @@
 
-### _We develop a Toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes and methods (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._
+### _We develop a toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes and methods (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._
 
 
 ##
 
-This rep is for **Box-supervised Instance Segmentation with Level Set Evolution(ECCV2022)**
+This rep is for **Box-supervised Instance Segmentation with Level Set Evolution (ECCV2022)**
  > Wentong Li, Wenyu Liu, [Jianke Zhu](https://person.zju.edu.cn/jkzhu), Miaomiao Cui, [Xiansheng Hua](https://scholar.google.com/citations?user=6G-l4o0AAAAJ&hl=zh-CN&oi=ao), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) 
  [Paper](./docs/BoxLevelset-ECCV2022.pdf) ([Arxiv](https://arxiv.org/abs/2207.09055))
  

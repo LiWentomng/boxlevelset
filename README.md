@@ -2,23 +2,22 @@
 ### _We develop a Toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._
 
 
-
+##
 
 This rep is for **Box-supervised Instance Segmentation with Level Set Evolution(ECCV2022)**
  > Wentong Li, Wenyu Liu, [Jianke Zhu](https://person.zju.edu.cn/jkzhu), Miaomiao Cui, [Xiansheng Hua](https://scholar.google.com/citations?user=6G-l4o0AAAAJ&hl=zh-CN&oi=ao), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) 
-
-[Paper](./docs/BoxLevelset-ECCV2022.pdf) ([Arxiv](https://arxiv.org/abs/2207.09055))
-
-### Installation
+ [Paper](./docs/BoxLevelset-ECCV2022.pdf) ([Arxiv](https://arxiv.org/abs/2207.09055))
+ 
+## Installation
 
 This implementation is based on [MMdetection](https://github.com/open-mmlab/mmdetection).
 Please refer to [install.md](./docs/install.md) for detailed installation.
 
 
-### Getting Started 
+## Getting Started 
 Please see [getting_started.md](./docs/get_started.md) for models `training` and `inference`.
 
-### Performance
+## Performance
 
 ### Models
  * The following models are trained with Telsa V100 GPU. 
@@ -67,7 +66,7 @@ Note:
     python tools/test.py configs/boxlevelset/config-xxx.py work_dirs/xxx.pth  --show-dir show_dirs/
  ``` 
  
-### Citation
+## Citation
 ```BibTeX
 @article{li2022boxlevelset,
   title={Box-supervised Instance Segmentation with Level Set Evolution},
@@ -77,7 +76,7 @@ Note:
 }
 ```
 
-###  Acknowledgements
+##  Acknowledgements
 
 [SOLO](https://github.com/WXinlong/SOLO)
 

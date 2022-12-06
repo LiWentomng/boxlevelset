@@ -44,11 +44,6 @@ Please see [getting_started.md](./docs/get_started.md) for models `training` and
  
  <img src="./docs/coco_vis.png" width="800px">
 
-
- Please run the following script to get more visual results. 
- ```
-    python tools/test.py configs/boxlevelset/config-xxx.py work_dirs/xxx.pth  --show-dir show_dirs/
- ``` 
  
 
 ## More

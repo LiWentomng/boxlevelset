@@ -5,7 +5,7 @@
 
  <img src="./docs/box2mask.png" width="800px">
 
-**This current code is for Box2Mask-C,  the codes and pretrained model for Box2Mask-T is under preparation.**
+**This current code is for Box2Mask-C,  the codes and pretrained model for Box2Mask-T are under preparation.**
 
 ## Installation
 
@@ -54,14 +54,6 @@ Please see [getting_started.md](./docs/get_started.md) for models `training` and
 ## More
 **_We develop a toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes and methods (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._**
 
-
-##  Acknowledgements
-
-[SOLO](https://github.com/WXinlong/SOLO)
-
-[AdelaiDet](https://github.com/aim-uofa/AdelaiDet)
-
-
 ## Citation
 ```BibTeX
 @article{li2022box2mask,
@@ -81,6 +73,15 @@ Please see [getting_started.md](./docs/get_started.md) for models `training` and
   year={2022}
 }
 ```
+
+
+
+##  Acknowledgements
+
+[SOLO](https://github.com/WXinlong/SOLO)
+
+[AdelaiDet](https://github.com/aim-uofa/AdelaiDet)
+
 
 ### License
 

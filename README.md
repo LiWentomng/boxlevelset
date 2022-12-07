@@ -7,10 +7,16 @@
 
  <img src="./docs/box2mask.png" width="800px">
 
-_The codes and pretrained model for Box2Mask are under preparation._
+_The codes and pretrained models for Box2Mask are under preparation._
 
 **_We develop a toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes and methods (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._**
 
+## 
+
+ > Visual performance on COCO of Box2Mask-T.
+ <img src="./docs/coco_vis.png" width="800px">
+
+   
 
 ## Installation
 
@@ -45,9 +51,6 @@ Please see [getting_started.md](./docs/get_started.md) for models `training` and
  * Training COCO with 3x needs about 4 days. 
 
 
- #### Visual Results on General Scene
- 
- <img src="./docs/coco_vis.png" width="800px">
 
 
 ## Citation

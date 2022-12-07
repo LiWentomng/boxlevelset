@@ -1,11 +1,16 @@
 
-**Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution**
+## Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution**
 
-[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv)
+**[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv) (Extension version)**
+
+**[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_1) (ECCV2022 version)**
 
  <img src="./docs/box2mask.png" width="800px">
 
 **This current code is for Box2Mask-C,  the codes and pretrained model for Box2Mask-T are under preparation.**
+
+**_We develop a toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes and methods (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._**
+
 
 ## Installation
 
@@ -16,8 +21,8 @@ Please refer to [install.md](./docs/install.md) for detailed installation.
 ## Getting Started 
 Please see [getting_started.md](./docs/get_started.md) for models `training` and `inference`.
 
-## Performance
-### Models
+## Performance of  models 
+### Models (ECCV2022 version)
  * The following models are trained with Telsa V100 GPU. 
  * The pretrained models are in GoogleDriver.
 
@@ -44,10 +49,6 @@ Please see [getting_started.md](./docs/get_started.md) for models `training` and
  
  <img src="./docs/coco_vis.png" width="800px">
 
- 
-
-## More
-**_We develop a toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes and methods (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._**
 
 ## Citation
 ```BibTeX

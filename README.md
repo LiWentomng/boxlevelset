@@ -1,5 +1,5 @@
 
-## Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution**
+## Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution
 
 **[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv) (Extension version)**
 

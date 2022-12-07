@@ -1,13 +1,13 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/box2mask-box-supervised-instance-segmentation/box-supervised-instance-segmentation-on-coco)](https://paperswithcode.com/sota/box-supervised-instance-segmentation-on-coco?p=box2mask-box-supervised-instance-segmentation)
+ 	[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/box2mask-box-supervised-instance-segmentation/box-supervised-instance-segmentation-on)](https://paperswithcode.com/sota/box-supervised-instance-segmentation-on?p=box2mask-box-supervised-instance-segmentation)
 
 ## Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution
 
-**[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv) (Extension version)**
-
-**[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_1) (ECCV2022 version)**
+**[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv)**
 
  <img src="./docs/box2mask.png" width="800px">
 
-**This current code is for Box2Mask-C,  the codes and pretrained model for Box2Mask-T are under preparation.**
+** The codes and pretrained model for Box2Mask are under preparation.**
 
 **_We develop a toolbox-[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) for box-supervised instance segmentation. More codes and methods (e.g. BoxInst, DiscoBox, Box2Mask) will be updated in it._**
 

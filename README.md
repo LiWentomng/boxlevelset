@@ -1,10 +1,12 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/box2mask-box-supervised-instance-segmentation/box-supervised-instance-segmentation-on-coco)](https://paperswithcode.com/sota/box-supervised-instance-segmentation-on-coco?p=box2mask-box-supervised-instance-segmentation)
  	[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/box2mask-box-supervised-instance-segmentation/box-supervised-instance-segmentation-on)](https://paperswithcode.com/sota/box-supervised-instance-segmentation-on?p=box2mask-box-supervised-instance-segmentation)
 
-## Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution
+## Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution 
 > Wentong Li, Wenyu Liu, [Jianke Zhu](https://person.zju.edu.cn/jkzhu), Miaomiao Cui, Risheng Yu, [Xiansheng Hua](https://scholar.google.com.hk/citations?user=6G-l4o0AAAAJ&hl=zh-CN&oi=ao) and [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)
 
-**[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv)**
+**[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv).**
+
+**_This version is the extension of BoxLevelSet (eccv2022) with Transformer-based framework with the powerfully performance._**
 
  <img src="./docs/box2mask.png" width="800px">
 

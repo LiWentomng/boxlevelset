@@ -6,7 +6,7 @@
 
 **[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv).**
 
-**_This version is the extension of [BoxLevelSet](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_1) (eccv2022) with Transformer-based framework to obtain the powerfully performance._**
+**_This version is the extension of [BoxLevelSet](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_1) (eccv2022) with Transformer-based framework to obtain the powerful performance._**
 
  <img src="./docs/box2mask.png" width="800px">
 

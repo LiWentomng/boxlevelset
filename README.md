@@ -10,7 +10,7 @@
 
  <img src="./docs/box2mask.png" width="800px">
 
-**_The codes and pretrained models for Box2Mask are under preparation._**
+**_The codes and pretrained models for Box2Mask are released in [BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg)._**
 
 ## 
 
@@ -49,13 +49,8 @@ Please see [getting_started.md](./docs/get_started.md) for models `training` and
 }
 ```
 
-
-
-##  Acknowledgements
-
-[SOLO](https://github.com/WXinlong/SOLO)
-
-[AdelaiDet](https://github.com/aim-uofa/AdelaiDet)
+## More
+**_This **[repo](https://github.com/LiWentomng/Box-supervised-instance-segmentation)** will update the **survey** of _box-supervised instance segmentation._**
 
 
 ### License

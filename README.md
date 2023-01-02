@@ -50,7 +50,7 @@ Please see [getting_started.md](./docs/get_started.md) for models `training` and
 ```
 
 ## More
-**_This **[repo](https://github.com/LiWentomng/Box-supervised-instance-segmentation)** will update the **survey** of _box-supervised instance segmentation._**
+**This **[repo](https://github.com/LiWentomng/Box-supervised-instance-segmentation)** will update the **survey** of _box-supervised instance segmentation._**
 
 
 ### License

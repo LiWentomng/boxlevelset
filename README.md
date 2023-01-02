@@ -21,7 +21,7 @@
 ## Model Zoo
 - This code is for our eccv version paper. The pretrained models are in [model_zoo](https://github.com/LiWentomng/boxlevelset/blob/main/docs/model_zoo.md).
 
-- The codes and pretrained models for *Box2Mask* is availble in [BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg).
+- The codes and pretrained models for *Box2Mask* are availble in [BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg).
 
 ## Installation
 

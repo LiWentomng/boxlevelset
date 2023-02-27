@@ -10,13 +10,13 @@ class LevelsetLoss(nn.Module):
 
     def forward(self, mask_logits, targets, pixel_num):
         region_levelset_term = region_levelset()
-        # length_regu_term = length_regularization()
+        length_regu_term = length_regularization()
 
         region_levelset_loss = region_levelset_term(mask_logits, targets) / pixel_num
-        # length_regu = 0.00001 * length_regu_term(mask_logits) / pixel_num
+        length_regu = 0.00001 * length_regu_term(mask_logits) / pixel_num
 
-        loss_levelst = self.loss_weight * region_levelset_loss
-        # loss_levelst = self.loss_weight * region_levelset_loss + length_regu
+        #loss_levelst = self.loss_weight * region_levelset_loss
+        loss_levelst = self.loss_weight * region_levelset_loss + length_regu
 
         return loss_levelst
 

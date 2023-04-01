@@ -2,7 +2,7 @@
 ## Box2Mask: Box-supervised Instance Segmentation via Level-set Evolution 
 > Wentong Li, Wenyu Liu, [Jianke Zhu](https://person.zju.edu.cn/jkzhu), Miaomiao Cui, Risheng Yu, [Xiansheng Hua](https://scholar.google.com.hk/citations?user=6G-l4o0AAAAJ&hl=zh-CN&oi=ao) and [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)
 
-**[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv).** *_This version is the extension of our [work](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_1) (eccv2022）to obtain the powerful performance._*
+**[Paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv).** *_This version is the extension of our [work](https://arxiv.org/pdf/2207.09055.pdf) (eccv2022）to obtain the powerful performance._*
 
 **_:boom:[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg) is a toolbox for box-supervised instance segmentation. More methods (e.g. BoxInst, DiscoBox, Box2Mask) are updated in it._**  
 

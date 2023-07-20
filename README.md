@@ -11,7 +11,7 @@
   
 - We develop **[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg)**, which is a toolbox for box-supervised instance segmentation. More methods (e.g. BoxInst, DiscoBox, Box2Mask) are updated in it.
 
-- We extend our work to [Box2Mask](https://arxiv.org/pdf/2212.01579.pdf) to obtain the powerful performance, which build our method on CNN-based (Box2Mask-C) and Transformer-based (Box2Mask-T) framework. Please see our [paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv) for details.  **_The codes and pretrained models for Box2Mask are released in [BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg)._**
+- We extend our work to [Box2Mask](https://arxiv.org/pdf/2212.01579.pdf) to obtain the powerful performance, which build our method on CNN-based (Box2Mask-C) and Transformer-based (Box2Mask-T) frameworks. Please see our [paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv) for details.  **_The codes and pretrained models for Box2Mask are released in [BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg)._**
 
 
 ## 

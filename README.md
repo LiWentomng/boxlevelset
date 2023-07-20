@@ -9,7 +9,7 @@
 
 - Inspired by our boxlevelset, [BoxSnake](https://github.com/Yangr116/BoxSnake) is developed. Please see the paper for the details.
   
-- We develop **[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg)**, which is a toolbox for box-supervised instance segmentation. More methods (e.g. BoxInst, DiscoBox, Box2Mask) are updated in it.
+- We develop **[BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg)**, which is a toolbox for box-supervised instance segmentation. More methods (e.g. BoxInst, DiscoBox, Box2Mask) are updated in it. This **[survey repo](https://github.com/LiWentomng/Box-supervised-instance-segmentation)** will update the methods on _box-supervised instance segmentation._
 
 - We extend our work to [Box2Mask](https://arxiv.org/pdf/2212.01579.pdf) to obtain the powerful performance, which build our method on CNN-based (Box2Mask-C) and Transformer-based (Box2Mask-T) frameworks. Please see our [paper](https://arxiv.org/pdf/2212.01579.pdf) (arXiv) for details.  **_The codes and pretrained models for Box2Mask are released in [BoxInstSeg](https://github.com/LiWentomng/BoxInstSeg)._**
 

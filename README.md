@@ -5,7 +5,7 @@
 
 <img src="./docs/boxlevelset.png" width="800px">
 
-## News
+## _News_
 
 - Inspired by our boxlevelset, [BoxSnake](https://github.com/Yangr116/BoxSnake) is developed. Please see the paper for the details.
   
